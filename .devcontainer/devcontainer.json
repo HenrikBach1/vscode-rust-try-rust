@@ -28,7 +28,9 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	,"extensions": [
-		"vadimcn.vscode-lldb"
+		"rust-lang.rust"
+		,"eamodio.gitlens"
+		,"vadimcn.vscode-lldb"
 		,"mutantdino.resourcemonitor"
 		,"matklad.rust-analyzer"
 		,"tamasfe.even-better-toml"
