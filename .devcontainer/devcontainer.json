@@ -45,4 +45,7 @@
 
 	// Comment out to run as root instead.
 	,"remoteUser": "vscode"
+	,"mounts": [
+		"source=${localEnv:HOME}/projects,target=/projects,type=bind,consistency=cached"
+	]
 }
